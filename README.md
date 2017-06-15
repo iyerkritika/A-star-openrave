@@ -1,2 +1,2 @@
 # A-star-openrave
-A* implementation in openrave using PR2 robot
+This repository is for A* algorithm implementation in openrave using PR2 robot. This Algorithm returns the optimal solution for start to goal paths. It has been implemented including collision checks with the environment. 4 combinations of A* have been implemented in the same program which can e switched by changing 2 input parameters (t and c). t is the type of distance (Manhattan or euclidean) and c is the type of connection from each point (4 connected of 8 connected). Along with the code there are output screenshots as well.
